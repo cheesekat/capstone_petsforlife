@@ -1,0 +1,45 @@
+body {
+  margin: 75px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
+  background-color: rgb(201, 250, 234);
+}
+
+h1 {
+  text-align: center;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: rgb(236, 185, 44);
+
+  text-align: center;
+}
+
+.nav a {
+  float: left;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.nav a:hover {
+  background-color: rgb(165, 194, 201);
+  color: black;
+  text-decoration: underline;
+}
+
+
+.footer {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
