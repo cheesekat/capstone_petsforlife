@@ -35,6 +35,17 @@ h1 {
   text-align: center;
 }
 
+body#pet {
+  background-color: lemonchiffon;
+}
+
+body#petCare {
+  background-color: lightgreen;
+}
+
+body#supply {
+  background-color: skyblue;
+}
 
 
 
