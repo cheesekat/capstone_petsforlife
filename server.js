@@ -15,4 +15,10 @@ express()
     }
     res.render("pages/index", args);
   })
+  .get("/", async(req, res) => {
+    const args = {
+      time: Date.now()
+    }
+    res.render("pages/pets", args);
+  })
   .listen(PORT, () => console.log(`listening on ${PORT}`));
