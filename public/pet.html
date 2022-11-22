@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="js/pets.js"></script>
+  <!-- <script src="public/pets.js"></script> -->
   <title>pet website</title>
 </head>
 
@@ -21,11 +21,24 @@
   </div>
   <div class="main">
     <h2>Search For Pets:</h2>
-    <p>content here</p>
+  
     <br><br>
 
+    <form id="pet-form"> 
+    <div class="form-group">
+      <label for="animal">Animal</label>
+      <select id="animal" class="form-control form-control-lg mb-3">
+        <option value="cat">Cat</option>
+        <option value="dog">Dog</option>
+        <option value="bird">Bird</option>
+        <option value="barnyard">Barnyard</option>
+
+      </select>
+    </div>
+    </form>
+  
     <form>
-      <legend> Find A Cat Near You! </legend>
+      <legend> Find A Pet Near You! </legend>
       <label for="zip">Zip</label>
       <input type="text" name="zip" id="zip">
       <input type="submit" id="submitZip">
@@ -33,10 +46,12 @@
 
 
 
-
+    <div id="results"></div>
 
   </div>
-  
+  <script  src="pets.js"></script>
+
+
 </body>
 <footer class="footer">
   <br><br>
