@@ -47,7 +47,20 @@ body#supply {
   background-color: skyblue;
 }
 
+ul {
+  list-style-type: circle;
+}
 
+li a {
+  text-decoration: none;
+  color: rgb(167, 69, 4);
+  
+}
+
+li a:hover {
+  color: rgb(219, 90, 3);
+  text-decoration: underline;
+}
 
 
 
