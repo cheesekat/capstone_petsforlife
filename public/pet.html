@@ -24,32 +24,24 @@
   
     <br><br>
 
-    <form id="pet-form"> 
-    <div class="form-group">
-      <label for="animal">Animal</label>
-      <select id="animal" class="form-control form-control-lg mb-3">
-        <option value="cat">Cat</option>
-        <option value="dog">Dog</option>
-        <option value="bird">Bird</option>
-        <option value="barnyard">Barnyard</option>
-
-      </select>
-    </div>
-    </form>
-  
-    <form>
-      <legend> Find A Pet Near You! </legend>
-      <label for="zip">Zip</label>
-      <input type="text" name="zip" id="zip">
-      <input type="submit" id="submitZip">
+    <form id="searchform"> 
+      <div>
+        <label for="animal">Animal</label>
+        <select id="animal">
+          <option value="cat">Cat</option>
+          <option value="dog">Dog</option>
+          <option value="bird">Bird</option>
+          <option value="farm">Farm</option>
+        </select>
+        <input type="text" id="zip" placeholder="Enter your zipcode">
+        <input type="submit" value="find">
+      </div>
     </form>
 
-
-
-    <div id="results"></div>
+    <div id="searchresults"></div>
 
   </div>
-  <script  src="pets.js"></script>
+  <script  src="js/search.js"></script>
 
 
 </body>
