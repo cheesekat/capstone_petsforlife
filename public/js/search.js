@@ -90,3 +90,15 @@ function showAnimals(pets) {
   });
 }
 
+
+// 
+// contact form js - aboutus.html
+// TODO: get email message
+
+function sendMessage() {
+  firstname = document.getElementById("firstname").value;
+  lastname = document.getElementById("lastname").value;
+  email = document.getElementById("email").value;
+  message = document.getElementById("message").value;
+  document.getElementById("confirm").innerHTML = "Thank You " + firstname + " " + lastname +"!";
+  }

@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="js/pets.js"></script>
-  <title>pet website</title>
+  <script src="js/search.js"></script>
+  <title>Pets For Life</title>
 </head>
 
 <body>
@@ -22,15 +22,20 @@
   <div class="main">
     <h2>Pets For Life</h2>
     <p>This site is to help animals find their forever home and help people find supplies and care for their new pet.</p>
-    <br><br>
-
-
-
-   
-    
-
-
-
+    <p>For any questions, comments, or concerns, please fill out this form.</p>
+    <form action="https://formsubmit.co/09940a211bac00f46de40dfa1d7889a7" method="post">
+      
+      <label>First Name:</label>
+      <input type="text" id="firstname" size="50"><br>
+      <label>Last Name:</label>
+      <input type="text" id="lastname" size="50"><br>
+      <label>Email Address:</label>
+      <input type="email" id="email" size="50"><br>
+      <p>Enter your message here:</p>
+      <textarea rows="4" cols="50" id="message"></textarea><br>
+      <input type="submit" value="Send Message" id="sendmessage" onclick="sendMessage()">
+    </form>
+    <p id="confirm"></p>
 
 
   </div>
