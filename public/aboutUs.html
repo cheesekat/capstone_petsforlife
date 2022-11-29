@@ -10,12 +10,12 @@
 </head>
 
 <body>
-  <h1>pets for life</h1>
+  <h1>Pets For Life</h1>
   <div class="nav">
     <a href="index.html">home</a>
     <a href="pet.html">pets</a>
     <a href="petCare.html">pet care</a>
-    <a href ="supplies.html">supplies</a>
+    <a href="supplies.html">supplies</a>
     <a href="aboutUs.html">about us</a>
     
   </div>
@@ -26,13 +26,13 @@
     <form action="https://formsubmit.co/09940a211bac00f46de40dfa1d7889a7" method="post">
       
       <label>First Name:</label>
-      <input type="text" id="firstname" size="50"><br>
+      <input required type="text" id="firstname" size="50"><br>
       <label>Last Name:</label>
-      <input type="text" id="lastname" size="50"><br>
+      <input required type="text" id="lastname" size="50"><br>
       <label>Email Address:</label>
-      <input type="email" id="email" size="50"><br>
+      <input required type="email" id="email" size="50"><br>
       <p>Enter your message here:</p>
-      <textarea rows="4" cols="50" id="message"></textarea><br>
+      <textarea required rows="4" cols="50" id="message"></textarea><br>
       <input type="submit" value="Send Message" id="sendmessage" onclick="sendMessage()">
     </form>
     <p id="confirm"></p>
