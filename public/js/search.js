@@ -100,5 +100,9 @@ function sendMessage() {
   lastname = document.getElementById("lastname").value;
   email = document.getElementById("email").value;
   message = document.getElementById("message").value;
-  document.getElementById("confirm").innerHTML = "Thank You " + firstname + " " + lastname +"!";
+  if (firstname == "" || lastname == "" || email == "" || message == "") {
+    alert("please fill out the form.");
+  } else {
+    document.getElementById("confirm").innerHTML = "Thank You " + firstname + " " + lastname +"!";
+  }
   }
