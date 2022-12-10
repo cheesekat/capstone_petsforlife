@@ -58,32 +58,32 @@ function showAnimals(pets) {
 
   // loop through pets
   pets.forEach((pet) => {
-    console.log(pet);
+    
     // create elements
     const div = document.createElement("div");
     div.classList.add("card", "card-body", "mb-3");
     div.innerHTML = `
         <div class="row">
-          <h4>${pet.name} (${pet.age})</h4>
+          <h3 class="pet">${pet.name}</h3>
+          <img src="${pet.photos[0] ? pet.photos[0].medium : "" }">
           <p class="text-secondary">${pet.breeds.primary}</p>
           <p>${pet.contact.address.city}, ${pet.contact.address.state} ${pet.contact.address.postcode}</p>
             <ul class="list-group">
-              <li class="list-group-item">${
+            <li class="list-group-item">Age: ${pet.age}</li>
+              ${
                   pet.contact.phone
                     ? `<li class="list-group-item">Phone: ${pet.contact.phone}</li>`
                     : ``
-              }</li>
+              }
               ${
                 pet.contact.email
                   ? `<li class="list-group-item">Email: ${pet.contact.email}</li>`
                   : ``
               }
-              <li class="list-group-item">Shelter ID: ${pet.organization_id}</li>
+              
             </ul>
           </div>
-          <div class="col-sm-6">
-            <img class="img-fluid rounded-circle mt-2" src="${pet.photos[0] ? pet.photos[0].medium : "" }">
-          </div>
+          
         </div>
         `;
       results.appendChild(div);
