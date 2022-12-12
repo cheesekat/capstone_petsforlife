@@ -82,3 +82,15 @@ li a:hover {
   text-align: center;
   max-width: 400px;
 }
+
+.navimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  float: right;
+}
+
+.main {
+  margin: auto;
+}
