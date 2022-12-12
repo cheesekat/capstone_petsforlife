@@ -52,16 +52,19 @@ function fetchAnimals(e) {
 // show listings of pets
 function showAnimals(pets) {
   const results = document.querySelector("#searchresults");
+  if(pets.length == 0) {
+    alert("No results in this area. Please try another search");
+  }
+  
 
   // clear results first
   results.innerHTML = "";
-
+  
   // loop through pets
   pets.forEach((pet) => {
     
     // create elements
     const div = document.createElement("div");
-    div.classList.add("card", "card-body", "mb-3");
     div.innerHTML = `
         <div class="row">
           <h3 class="pet">${pet.name}</h3>
@@ -80,10 +83,8 @@ function showAnimals(pets) {
                   ? `<li class="list-group-item">Email: ${pet.contact.email}</li>`
                   : ``
               }
-              
             </ul>
           </div>
-          
         </div>
         `;
       results.appendChild(div);

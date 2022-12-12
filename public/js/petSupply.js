@@ -82,17 +82,17 @@ function supplyLinks() {
       </ul>`;
             
       break;
-    // case ("fish"):  //Fish
-    //   output.innerHTML = `<ul id="fishLinks">
-    //     <li><a href="https://www.tractorsupply.com/tsc/catalog/pet-fish">Tractor Supply</a></li><br>
-    //     <li><a href="https://www.chewy.com/b/fish-885">Chewy</a></li><br>
-    //     <li><a href="https://www.petflow.com/fish">PetFlow</a></li><br>
-    //     <li><a href="https://www.petsuppliesplus.com/">Pet Supplies Plus</a></li><br>
-    //     <li><a href="https://www.petco.com/shop/en/petcostore/category/fish">Petco</a></li><br>
-    //     <li><a href="https://www.entirelypets.com/aquarium-supplies.html">EntirelyPets</a></li>
-    //   </ul>`;
+    case ("fish"):  //Fish
+      output.innerHTML = `<ul id="fishLinks">
+        <li><a href="https://www.tractorsupply.com/tsc/catalog/pet-fish">Tractor Supply</a></li><br>
+        <li><a href="https://www.chewy.com/b/fish-885">Chewy</a></li><br>
+        <li><a href="https://www.petflow.com/fish">PetFlow</a></li><br>
+        <li><a href="https://www.petsuppliesplus.com/">Pet Supplies Plus</a></li><br>
+        <li><a href="https://www.petco.com/shop/en/petcostore/category/fish">Petco</a></li><br>
+        <li><a href="https://www.entirelypets.com/aquarium-supplies.html">EntirelyPets</a></li>
+      </ul>`;
               
-    //   break;
+      break;
     case ("reptile"):  //Reptile
       output.innerHTML = ` <ul id="reptileLinks">
         <li><a href="https://www.tractorsupply.com/tsc/catalog/reptile">Tractor Supply</a></li><br>
