@@ -35,7 +35,7 @@ h1 {
   text-align: center;
 }
 
-body#pet {
+/* body#pet {
   background-color: lemonchiffon;
 }
 
@@ -45,7 +45,7 @@ body#petCare {
 
 body#supply {
   background-color: skyblue;
-}
+} */
 
 ul {
   list-style-type: circle;
