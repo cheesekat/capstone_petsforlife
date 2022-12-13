@@ -54,7 +54,7 @@ h1 {
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: none;
 }
 
 li a {
@@ -97,3 +97,6 @@ li a:hover {
   float: right;
 }
 
+.list-group-item {
+  text-align: left;
+}

@@ -59,13 +59,13 @@ window.onload = function() {
             <p class="text-secondary">${pet.breeds.primary}</p>
             <p>${pet.contact.address.city}, ${pet.contact.address.state} ${pet.contact.address.postcode}</p>
               <ul class="list-group">
-                <li class="list-group-item">Age: ${pet.age}</li>
+                <li class="list-group-item">${pet.age}</li>
                 ${pet.contact.phone
-                      ? `<li class="list-group-item">Phone: ${pet.contact.phone}</li>`
+                      ? `<li class="list-group-item">${pet.contact.phone}</li>`
                       : ``
                 }
                 ${pet.contact.email
-                    ? `<li class="list-group-item">Email: ${pet.contact.email}</li>`
+                    ? `<li class="list-group-item">${pet.contact.email}</li>`
                     : ``
                 }
               </ul>
