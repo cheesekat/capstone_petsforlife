@@ -6,8 +6,8 @@ body {
 
 .logoImg {
   background-image: url("../images/pfl.png");
-  height: 165px;
-  width: 165px;
+  height: 123px;
+  width: 123px;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -19,7 +19,7 @@ h1 {
 }
 
 .nav { 
-  margin-top: 117px;
+  /* margin-top: 117px; */
   float: left;
   overflow: hidden;
   background-color: rgb(236, 185, 44);
@@ -46,8 +46,8 @@ h1 {
   float: left;
 }
 
-.footer {
-  position: fixed;
+footer {
+  position: absolute;
   bottom: 0;
   text-align: center;
   width: 100%;
