@@ -1,17 +1,28 @@
 body {
-  margin: 75px;
+  margin: 25px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
-  background-color: rgb(201, 250, 234);
+  background-color: skyblue;
+}
+
+.logoImg {
+  background-image: url("../images/pfl.png");
+  height: 165px;
+  width: 165px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  float: left
 }
 
 h1 {
   text-align: center;
 }
 
-.nav {
+.nav { 
+  margin-top: 117px;
+  float: left;
   overflow: hidden;
   background-color: rgb(236, 185, 44);
-
   text-align: center;
 }
 
@@ -30,21 +41,16 @@ h1 {
   text-decoration: underline;
 }
 
+.main {
+  margin: 25px;
+  float: left;
+}
 
 .footer {
+  position: fixed;
+  bottom: 0;
   text-align: center;
-}
-
-body#pet {
-  background-color: lemonchiffon;
-}
-
-body#petCare {
-  background-color: lightgreen;
-}
-
-body#supply {
-  background-color: skyblue;
+  width: 100%;
 }
 
 ul {
@@ -91,6 +97,3 @@ li a:hover {
   float: right;
 }
 
-.main {
-  margin: auto;
-}
