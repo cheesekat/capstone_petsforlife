@@ -51,7 +51,7 @@ window.onload = function() {
     pets.forEach((pet) => {
       // create elements
       const div = document.createElement("div");
-      div.classList.add("card", "card-body", "mb-3");
+      
       div.innerHTML = `
           <div>
             <h4>${pet.name}</h4>
