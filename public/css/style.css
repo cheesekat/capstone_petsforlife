@@ -108,8 +108,8 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
   border: 1px solid black;
   margin: 2rem;
-  margin-bottom: 5rem;
-  padding: 2rem;
+  /* margin-bottom: 5rem; */
+  padding: 2rem 2rem 0 2rem;
   background-color: antiquewhite;
   min-height: 55rem;
 }
@@ -189,4 +189,21 @@ h1 {
 .list-group {
   list-style: none;
   text-align: left;
+}
+
+footer {
+  text-align: center;
+  color: darkslategray;
+  min-width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 10rem;
+  font-size: 12px;
+  /* border: 1px solid black; */
+  
+}
+
+footer a {
+  text-decoration: none;
 }
