@@ -8,19 +8,23 @@
   <title>Pets For Life</title>
 </head>
 
-<body id="pet">
-  <img class="logoImg">
-  <div class="nav">
-    <a href="index.html">home</a>
-    <a href="pet.html">pets</a>
-    <a href="petCare.html">care</a>
-    <a href="supplies.html">supplies</a>
-    <a href="aboutUs.html">about</a>
+<body>
+  <header>
+    <img class="headerimg" src="images/pfl.png">
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="pet.html">pets</a></li>
+      <li><a href="petCare.html">care</a></li>
+      <li><a href="supplies.html">supplies</a></li>
+      <li><a href="aboutUs.html">about</a></li>
+    </ul>
+  </nav>
 
-  </div>
-  <div class="main">
-    <img class="navimg" src="images/stockimgcat.jpg">
-    <h2>Search For Pets:</h2>
+  <main>
+    <h1>Search For Pets</h1>
+    <img class="mainimg" src="images/stockimgcat.jpg">
 
     <form id="searchform"> 
       <div>
@@ -43,14 +47,12 @@
     <div id="searchresults"></div>
     <p id="noresult"></p>
 
-  </div>
+  </main>
   <script  src="js/search.js"></script>
 
 </body>
 <footer class="footer">
-  <br><br>
-  <p><small><a href="aboutUs.html">contact us</a></small></p>
-  
+  <!-- <p><small><a href="aboutUs.html">contact us</a></small></p> -->
 </footer>
 
 </html>

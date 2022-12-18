@@ -46,7 +46,7 @@ function supplyLinks() {
           <label for="dog14">Treats</label><br>
           <input type="checkbox">
           <label for="dog15">Cleaning Supplies</label><br><br>
-          
+          <button onclick="window.print()">Print</button>
         </form>
     </ul>`);
   
@@ -93,7 +93,7 @@ function supplyLinks() {
           <label for="">Durable Carrier</label><br>
           <input type="checkbox">
           <label for="">Treats</label><br><br>
-          
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`);
       
@@ -141,7 +141,7 @@ function supplyLinks() {
             <input type="checkbox">
             <label for="">Travel Cage Carrier</label><br><br>
 
-         
+            <button onclick="window.print()">Print</button>
           </form>
         </ul>`;
         
@@ -213,7 +213,7 @@ function supplyLinks() {
             <label for="">Blankets</label><br>
             <input type="checkbox">
             <label for="">Waterproof Sheet</label><br>
-          
+            <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
             
@@ -253,7 +253,7 @@ function supplyLinks() {
           <input type="checkbox">
           <label for="">Lambing Supplies</label><br><br>
 
-          
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
       break;
@@ -291,7 +291,7 @@ function supplyLinks() {
             <label for="">Egg Cartons if needed</label><br>
             <input type="checkbox">
             <label for="">Heat Light</label><br><br>
-
+            <button onclick="window.print()">Print</button>
           </form>
         </ul>`;
       break;
@@ -337,7 +337,7 @@ function supplyLinks() {
           <label for="">Hoof Trimmer</label><br>
           <input type="checkbox">
           <label for="">Medical Supplies</label><br><br>
-
+          <button onclick="window.print()">Print</button>
           
         </form>
         </ul>`;
@@ -384,7 +384,7 @@ function supplyLinks() {
           <input type="checkbox">
           <label for=""></label><br>
 
-          
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
       break;
@@ -426,7 +426,7 @@ function supplyLinks() {
           <label for="">Travel Carrying Cage</label><br>
           
 
-          
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
       break;
@@ -471,7 +471,7 @@ function supplyLinks() {
           <input type="checkbox">
           <label for="">Chew Sticks</label><br>
 
-      
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
       break;
@@ -506,7 +506,7 @@ function supplyLinks() {
           <input type="checkbox">
           <label for="">SaltLick</label><br>
 
-          
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
       break;
@@ -555,7 +555,7 @@ function supplyLinks() {
           <input type="checkbox">
           <label for="">Treats</label><br>
 
-         
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
       break;
@@ -591,7 +591,7 @@ function supplyLinks() {
           <label for="">Mineral Chews</label><br>
           <input type="checkbox">
           <label for="">Carrier</label><br>
-
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
       break;
@@ -649,7 +649,7 @@ function supplyLinks() {
             <input type="checkbox">
             <label for="">Toys</label><br>
   
-            
+            <button onclick="window.print()">Print</button>
           </form>
           
         </ul>`;
@@ -690,7 +690,7 @@ function supplyLinks() {
           <input type="checkbox">
           <label for="">Thermometer</label><br>
 
-          
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
               
@@ -730,7 +730,7 @@ function supplyLinks() {
           <input type="checkbox">
           <label for="">Cleaning Supplies</label><br>
 
-          
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
       break;
@@ -769,7 +769,7 @@ function supplyLinks() {
           <input type="checkbox">
           <label for="">Heating Pad / Rock</label><br>
 
-          
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
       break;
@@ -804,7 +804,7 @@ function supplyLinks() {
           <input type="checkbox">
           <label for="">Heating Pad</label><br>
 
-          
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
       break;
@@ -845,7 +845,7 @@ function supplyLinks() {
           <input type="checkbox">
           <label for="">Toys</label><br>
 
-          
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
       break;
@@ -884,7 +884,7 @@ function supplyLinks() {
           <input type="checkbox">
           <label for="">Cleaning Supplies</label><br>
 
-         
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
       break;
@@ -924,7 +924,7 @@ function supplyLinks() {
           <label for="">Calcium / Vitamin Supplements</label><br>
           <input type="checkbox">
           <label for="">Substrate</label><br>
-        
+          <button onclick="window.print()">Print</button>
         </form>
       </ul>`;
       break;
