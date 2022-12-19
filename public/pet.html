@@ -23,13 +23,13 @@
   </nav>
 
   <main>
-    <h1>Search For Pets</h1>
+    <h1>Search</h1>
     <img class="mainimg" src="images/stockimgcat.jpg">
 
     <form id="searchform"> 
-      <div>
-        <label for="animal">Animal</label>
-        <select id="animal">
+      
+        <label class="label" for="animal">Select Animal:</label>
+        <select class="dropdown" id="animal">
           <option value="cat">Cat</option>
           <option value="dog">Dog</option>
           <option value="bird">Bird</option>
@@ -39,12 +39,12 @@
           <option value="small-furry">Small-Furry</option>
           <option value="scales-fins-other">Scales-Fins-Other</option>
         </select>
-        <input required type="text" id="zip" placeholder="Enter your zipcode">
-        <input type="submit" value="find">
-      </div>
+        <input required class="zip" type="text" id="zip" placeholder="Enter your zipcode">
+        <input class="submit" type="submit" value="find">
+      
     </form>
 
-    <div id="searchresults"></div>
+    <div class="results" id="searchresults"></div>
     <p id="noresult"></p>
 
   </main>

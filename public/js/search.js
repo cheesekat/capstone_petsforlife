@@ -70,7 +70,7 @@ function showAnimals(pets) {
           <h3 class="pet">${pet.name}</h3>
           <img src="${pet.photos[0] ? pet.photos[0].medium : "" }">
           <p class="text-secondary">${pet.breeds.primary}</p>
-          <p>${pet.contact.address.city}, ${pet.contact.address.state} ${pet.contact.address.postcode}</p>
+          <p class="text-secondary">${pet.contact.address.city}, ${pet.contact.address.state} ${pet.contact.address.postcode}</p>
             <ul class="list-group">
             <li class="list-group-item">${pet.age}</li>
               ${
@@ -85,7 +85,7 @@ function showAnimals(pets) {
               }
             </ul>
           </div>
-        </div>
+        </div><br><br>
         `;
       results.appendChild(div);
   });

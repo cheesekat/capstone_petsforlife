@@ -56,7 +56,7 @@ window.onload = function() {
           <div>
             <h4>${pet.name}</h4>
             <img src="${pet.photos[0] ? pet.photos[0].medium : "" }">
-            <p class="text-secondary">${pet.breeds.primary}</p>
+            <p>${pet.breeds.primary}</p>
             <p>${pet.contact.address.city}, ${pet.contact.address.state} ${pet.contact.address.postcode}</p>
               <ul class="list-group">
                 <li class="list-group-item">${pet.age}</li>
