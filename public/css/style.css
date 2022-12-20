@@ -264,3 +264,12 @@ footer a {
   /* border: 2px solid rgb(247, 210, 91); */
   padding: 1rem;
 }
+
+span {
+  font-family: Garamond;
+  font-size: 54px;
+  color: #000;
+}
+.main {
+  color: darkslategrey;
+}
