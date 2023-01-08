@@ -32,6 +32,10 @@
     
 
     <form action="https://formsubmit.co/potatochipkat@gmail.com" method="POST">
+      <!-- honeypot -->
+      <input type="text" name="_honey" style="display: none;">
+      <!-- disable captcha -->
+      <input type="hidden" name="_captcha" value="false">
       <label>First Name:</label>
       <input type="text" name="fname" required><br>
       <label>Last Name:</label>
