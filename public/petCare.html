@@ -29,11 +29,9 @@
     <img class="mainimg" src="images/stockimgpiggoat.jpg">
 
     <p>Please visit these links to answer all of your pet care questions.</p>
-
-    <form id="petCareForm">
-      
-        <!-- <label class="label" for="animal">Animal</label> -->
-        <select class="dropdown" id="animalType">
+        
+        <select class="dropdown" id="animalType" onchange="showLinks()">
+          <option value="selectanimal">select animal</option>
           <option value="cat">Cat</option>
           <option value="dog">Dog</option>
           <option value="bird">Bird</option>
@@ -43,9 +41,9 @@
           <option value="fish">Fish</option>
           <option value="smallPet">Small Pets</option>
         </select>
-      <button class="submit" type="button" onclick="petCareLinks()" value="find">See Links</button>    
+          
     
-      </form>
+      
       <div id="output"></div>
 
     </main>
