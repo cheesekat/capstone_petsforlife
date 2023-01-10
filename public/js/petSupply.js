@@ -17,35 +17,35 @@ function supplyLinks() {
         
         <form id="checklist">
           <input type="checkbox">
-          <label for="dog1">Food - Dry and/or Wet</label><br>
+          <label>Food - Dry and/or Wet</label><br>
           <input type="checkbox">
-          <label for="dog2">Food Bowl</label><br>
+          <label>Food Bowl</label><br>
           <input type="checkbox">
-          <label for="dog3">Water Bowl</label><br>
+          <label>Water Bowl</label><br>
           <input type="checkbox">
-          <label for="dog4">Collar and Nametag</label><br>
+          <label>Collar and Nametag</label><br>
           <input type="checkbox">
-          <label for="dog5">Leash / Harness</label><br>
+          <label>Leash / Harness</label><br>
           <input type="checkbox">
-          <label for="dog6">Brush</label><br>
+          <label>Brush</label><br>
           <input type="checkbox">
-          <label for="dog7">Shampoo</label><br>
+          <label>Shampoo</label><br>
           <input type="checkbox">
-          <label for="dog8">Toys</label><br>
+          <label>Toys</label><br>
           <input type="checkbox">
-          <label for="dog9">Bed</label><br>
+          <label>Bed</label><br>
           <input type="checkbox">
-          <label for="dog10">Crate</label><br>
+          <label>Crate</label><br>
           <input type="checkbox">
-          <label for="dog11">Flea and Tick treatments</label><br>
+          <label>Flea and Tick treatments</label><br>
           <input type="checkbox">
-          <label for="dog12">NailFile</label><br>
+          <label>NailFile</label><br>
           <input type="checkbox">
-          <label for="dog13">Cleanup Bags</label><br>
+          <label>Cleanup Bags</label><br>
           <input type="checkbox">
-          <label for="dog14">Treats</label><br>
+          <label>Treats</label><br>
           <input type="checkbox">
-          <label for="dog15">Cleaning Supplies</label><br><br>
+          <label>Cleaning Supplies</label><br><br>
           <button onclick="window.print()">Print</button>
         </form>
     </ul>`);
@@ -929,7 +929,8 @@ function supplyLinks() {
       </ul>`;
       break;
 
-    // default:
+    default:
+      output.innerHTML = "";
     //   output.innerHTML =  `<ul id="links">
     //     <li><a href="https://www.purina.com/" target="_blank">Purina</a></li><br>
     //     <li><a href="https://www.chewy.com/" target="_blank">Chewy</a></li><br>

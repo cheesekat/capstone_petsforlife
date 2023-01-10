@@ -28,10 +28,9 @@
     
     <p>Choose your pet and click to see our favorite pet supply websites.</p>
 
-      <form id="supplyForm">
-        
-        <!-- <label class="label" for="animal">Animal</label> -->
-        <select class="dropdown" id="animalType">
+      
+        <select class="dropdown" id="animalType" onchange="supplyLinks()">
+          <option value="selectanimal">Select Animal</option>
           <option value="cat">Cat</option>
           <option value="dog">Dog</option>
           <option value="bird">Bird</option>
@@ -55,9 +54,7 @@
           <option value="pig">Pig</option>
         </select>
 
-        <button class="submit" type="button" onclick="supplyLinks()" value="find">Find Supply</button>    
-    
-      </form>
+        
       <div id="output"></div>
 
   </main>
