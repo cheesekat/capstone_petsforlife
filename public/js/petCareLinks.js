@@ -76,7 +76,7 @@ function showLinks() {
       break;
 
     default:
-        output.innerHTML = "default";
+        output.innerHTML = "";
 
   }
 
